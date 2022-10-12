@@ -5,7 +5,7 @@ function getUseId() {
   const fullClone = {
     ...React,
   };
-
+  // @ts-ignore
   return fullClone.useId;
 }
 
